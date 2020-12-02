@@ -1,0 +1,61 @@
+.headerMenu {
+	background: url(../img/destaque.jpeg) no-repeat;
+	background-size: cover;
+	padding-top: 32px;
+}
+
+.headerMenu .mainMenu {
+	text-align: center;
+}
+
+.headerMenu .mainMenu .menuItem {
+	display: inline-block;
+	margin: 0 2px 32px 0;
+}
+
+.headerMenu .mainMenu .menuItem a {
+	color: white;
+	padding: 16px;
+	background:  rgba(0,0,0,0.1);
+	border-radius: 8px;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: background-color 0.5s;
+}
+
+.headerMenu .mainMenu .menuItem a:hover {
+	background-color: #48A3A6;
+}
+
+.headerMenu .jumboTron {
+  padding: 0 0 44px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.headerMenu .jumboTron .mainPanel {
+	text-shadow: 4px 4px 10px black;
+}
+
+.headerMenu .jumboTron .mainPanel .titulo {
+	color: white;
+	padding: 40px 0 08px 0;
+	font-size: 3em;
+}
+
+.headerMenu .jumboTron .mainPanel .subTitulo {
+	color: #64FF64;
+	margin-bottom: 40px;
+	font-size: 2em;
+}
+
+.headerMenu .jumboTron a {
+	text-decoration: none;
+}
+
+@media(min-width: 650px) {
+	.headerMenu .jumboTron {
+		font-size: 32px;
+	} 
+}
+

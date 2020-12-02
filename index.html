@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Alura Conference ALURACONF</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/sobre.css">
+		<link rel="stylesheet" href="css/palestrantes.css">
+		<link rel="stylesheet" href="css/formulario.css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+	</head>
+
+	<body>
+		<header class="headerMenu">
+			<nav class=mainMenu>
+				<ul class="navegacao">
+					<li class="menuItem"><a href="#painelSobre">Sobre</a></li>
+					<li class="menuItem"><a href="#painelPalestrantes">Palestrantes</a></li>
+				</ul>
+			</nav>
+			<div class="jumboTron">
+				<section class="mainPanel">
+					<h1 class="titulo">ALURACONF</h1>
+					<h2 class="subTitulo">30MAIO|RIO</h2>
+				</section>
+				<section class="botao">
+					<a href="#painelInscricao">Inscreva-se</a>
+				</section>
+			</div>
+		</header>
+		<main id="painelSobre" class="mainSobre">
+			<section class="container">
+					<h3 class="tituloThree">
+						Muito conteúdo: do frontend ao backend
+					</h3>
+					<h4 class="tituloFour">
+						30 de Maio de 2017 - na Cidade Maravilhosa
+					</h4>
+				<div class="fraseSobre">	
+					<p>
+						Com a AluraConf abordaremos o que há de novidade e conhecimentos essenciais a um desenvolvedor mobile.
+					<br>
+						É uma grande chance de ficar por dentro dos assuntos de Android, iOS, Web mobile, desenvolvimento híbrido, UX, além da parte backend com Rest, Microservices e BigData. O desenvolvedor atualizado vai estar aqui.
+					</p>
+				</div>
+			</section>
+		</main>
+		<main id="painelPalestrantes" class="mainPalestrantes">
+			<section>
+				<h5 class="tituloFive">
+					Palestrantes
+				</h5>
+				<div class="frasePalestrantes">
+					<p>
+						Aprenda com palestrantes que são referência no mercado
+					</p>
+				</div>
+
+			</section>
+			<section class="palestrantes">
+				<ul class="caixaPalestrantes">
+					<li>
+						<figure class="portaRetrato">
+							<img class="imagemPalestrante" src="img/palestrantes/placeholder.jpeg">
+							<figcaption class="palestranteNome">
+							Flavio Almeida
+							</figcaption>
+							<p class="palestranteCargo">Desenvoedor e Instrutor da Caeluml</p>
+						</figure>
+						<p class="palestranteDescricao">To be or not to be MEAN</p>
+					</li>
+					<li>
+						<figure class="imagemPalestrante">
+							<img class="imagemPalestrante" src="img/palestrantes/placeholder.jpeg">
+							<figcaption class="palestranteNome">
+							Flavio Almeida
+							</figcaption>
+							<p class="palestranteCargo">Desenvoedor e Instrutor da Caeluml</p>
+						</figure>
+						<p class="palestranteDescricao">To be or not to be MEAN</p>
+					</li>
+					<li>
+						<figure class="imagemPalestrante">
+							<img class="imagemPalestrante" src="img/palestrantes/placeholder.jpeg">
+							<figcaption class="palestranteNome">
+							Flavio Almeida
+							</figcaption>
+							<p class="palestranteCargo">Desenvoedor e Instrutor da Caeluml</p>
+						</figure>
+						<p class="palestranteDescricao">To be or not to be MEAN. To be or not to be MEAN. To be or not to be MEAN. To be or not to be MEAN.To be or not to be MEAN.</p>
+					</li>
+					<li>
+						<figure class="imagemPalestrante">
+							<img class="imagemPalestrante" src="img/palestrantes/placeholder.jpeg">
+							<figcaption class="palestranteNome">
+							Flavio Almeida
+							</figcaption>
+							<p class="palestranteCargo">Desenvoedor e Instrutor da Caeluml</p>
+						</figure>
+						<p class="palestranteDescricao">To be or not to be MEAN</p>
+					</li>
+					<li>
+						<figure class="imagemPalestrante">
+							<img class="imagemPalestrante" src="img/palestrantes/placeholder.jpeg">
+							<figcaption class="palestranteNome">
+							Flavio Almeida
+							</figcaption>
+							<p class="palestranteCargo">Desenvoedor e Instrutor da Caeluml</p>
+						</figure>
+						<p class="palestranteDescricao">To be or not to be MEAN</p>
+					</li>
+					<li>
+						<figure class="imagemPalestrante">
+							<img class="imagemPalestrante" src="img/palestrantes/placeholder.jpeg">
+							<figcaption class="palestranteNome">
+							Flavio Almeida
+							</figcaption>
+							<p class="palestranteCargo">Desenvoedor e Instrutor da Caeluml</p>
+						</figure>
+						<p class="palestranteDescricao">To be or not to be MEAN</p>
+					</li>
+				</ul>
+			</section>
+		</main>
+		<main id="painelInscricao" class="mainInscricao">
+			<div class="container">
+				<h6 class="tituloSix">Seus Dados</h6>	
+				<form>
+					<label for="nomeSobrenome">Nome e Sobrenome</label>
+						<input type="text" id="nomeSobrenome" class="inputPadrao" required placeholder="Digite seu nome e sobrenome">
+					<label for="email">E-mail</label>
+						<input type="text" id="e-mail" class="inputPadrao" required placeholder="Digite seu endereço de e-mail">
+					<button class="botao">Realizar Inscrição</button>
+				</form>
+			</div>
+		</main>
+		<script src="js/jquery.js"></script>
+	    <script src="js/index.js"></script>
+	</body>
+</html>

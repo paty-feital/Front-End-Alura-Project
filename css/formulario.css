@@ -1,0 +1,11 @@
+.mainInscricao {
+	margin-top: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+.mainInscricao .tituloSix {
+	color:	#EF7247;
+	font-size: 2em;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+}

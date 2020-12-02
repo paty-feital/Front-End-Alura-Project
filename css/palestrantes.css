@@ -1,0 +1,48 @@
+.mainPalestrantes {
+	text-align: center;
+	background-color: #EF7247;
+	color: white;
+	padding-top: 40px;
+}
+
+.mainPalestrantes .tituloFive {
+	font-size: 3em;
+	text-transform: uppercase;
+}
+
+
+.mainPalestrantes .frasePalestrantes {
+	line-height: 30px;
+	font-size: 2em;
+	padding: 10px 0 40px 0;
+}
+
+.palestrantes .caixaPalestrantes li {
+	color: black;
+	display: inline-block;
+	width: 250px;
+	vertical-align: top;
+	margin: 1%;
+	padding: 20px 0 20px 0;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.palestrantes .imagemPalestrante {
+	border-radius: 50%;
+} 
+
+.palestrantes .palestranteNome {
+	margin-top: 10px;
+}
+
+.palestrantes .palestranteCargo {
+	margin-top: 16px;
+	font-weight: bold;
+}
+
+.palestrantes .palestranteDescricao {
+	margin-top: 16px;
+}
